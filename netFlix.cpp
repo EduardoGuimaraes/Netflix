@@ -10,13 +10,15 @@ class Episodio{
 };
 
 class Temporada{
-	int numero;
+	int ordem;//eg. Temprada1, Temporada 2
+	int numeroEpi;
+	Episodio[numeroEpi] Eps;
 };
 
 class Serie{
 	string nome;
 	string genero;
 	int favs;
-	int numeroEpisodios;
-	
+	int NumeroTemp;
+	Temporada[NumeroTemp] Temps;
 };
